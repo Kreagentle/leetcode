@@ -7,7 +7,6 @@ def max_product(arr):
             max1 = n
         elif n > max2:
             max2 = n
-
     return max1 * max2
 
 if __name__ == '__main__':

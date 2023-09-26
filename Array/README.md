@@ -18,3 +18,12 @@ Find the maximum product of two integers in an array where all elements are posi
 arr = [1, 7, 3, 4, 9, 5] 
 max_product(arr) # Output: 63 (9*7)
 ```
+
+# Middle Function
+
+Write a function called middle that takes a list and returns a new list that contains all but the first and last elements.
+
+```sh
+myList = [1, 2, 3, 4]
+middle(myList)  # [2,3]
+```
