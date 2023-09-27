@@ -27,3 +27,12 @@ Write a function called middle that takes a list and returns a new list that con
 myList = [1, 2, 3, 4]
 middle(myList)  # [2,3]
 ```
+
+# 2D Lists
+
+Given 2D list calculate the sum of diagonal elements.
+
+```sh
+myList2D= [[1,2,3],[4,5,6],[7,8,9]] 
+diagonal_sum(myList2D) # 15
+```
