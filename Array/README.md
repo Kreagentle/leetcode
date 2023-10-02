@@ -46,3 +46,12 @@ List may contain duplicates.
 myList = [84,85,86,87,85,90,85,83,23,45,84,1,2,0]
 first_second(myList) # 90 87
 ```
+
+# Duplicate Number
+
+Write a function to remove the duplicate numbers on given integer array/list.
+
+```sh
+remove_duplicates([1, 1, 2, 2, 3, 4, 5])
+Output : [1, 2, 3, 4, 5]
+```

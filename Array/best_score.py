@@ -5,7 +5,7 @@ def first_second(my_list):
         if n > max1:
             max2 = max1
             max1 = n
-        elif n > max2:
+        elif n > max2 and n != max1:
             max2 = n
 
     return max1, max2
