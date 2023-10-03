@@ -55,3 +55,21 @@ Write a function to remove the duplicate numbers on given integer array/list.
 remove_duplicates([1, 1, 2, 2, 3, 4, 5])
 Output : [1, 2, 3, 4, 5]
 ```
+
+# Pairs
+
+Write a function to find all pairs of an integer array whose sum is equal to a given number. Do not consider commutative pairs.
+
+```sh
+pair_sum([2, 4, 3, 5, 6, -2, 4, 7, 8, 9],7)
+Output : ['2+5', '4+3', '3+4', '-2+9']
+```
+
+# Contains Duplicate
+
+Given an integer array nums, return true if any value appears at least twice in the array, and return false if every element is distinct.
+
+```sh
+Input: nums = [1,2,3,1]
+Output: true
+```
