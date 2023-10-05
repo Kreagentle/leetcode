@@ -19,3 +19,12 @@ merge_dicts(dict1, dict2)
 Output:
 {'a': 1, 'b': 5, 'c': 7, 'd': 5}
 ```
+
+# Key with the Highest Value
+
+Define a function which takes a dictionary as a parameter and returns the key with the highest value in a dictionary.
+
+```sh
+my_dict = {'a': 5, 'b': 9, 'c': 2}
+max_value_key(my_dict)
+```
