@@ -46,3 +46,13 @@ Define a function that takes a dictionary as a parameter and returns a dictionar
 my_dict = {'a': 1, 'b': 2, 'c': 3, 'd': 4} 
 filtered_dict = filter_dict(my_dict, lambda k, v: v % 2 == 0) 
 ```
+
+# Same Frequency
+
+Define a function which takes two lists as parameters and check if two given lists have the same frequency of elements.
+
+```sh
+list1 = [1, 2, 3, 2, 1]
+list2 = [3, 1, 2, 1, 3]
+check_same_frequency(list1, list2)
+```
