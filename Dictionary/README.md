@@ -28,3 +28,12 @@ Define a function which takes a dictionary as a parameter and returns the key wi
 my_dict = {'a': 5, 'b': 9, 'c': 2}
 max_value_key(my_dict)
 ```
+
+# Reverse Key-Value Pairs
+
+Define a function which takes as a parameter dictionary and returns a dictionary in which everse the key-value pairs are reversed.
+
+```sh
+my_dict = {'a': 1, 'b': 2, 'c': 3}
+reverse_dict(my_dict)
+```
