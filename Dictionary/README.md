@@ -37,3 +37,12 @@ Define a function which takes as a parameter dictionary and returns a dictionary
 my_dict = {'a': 1, 'b': 2, 'c': 3}
 reverse_dict(my_dict)
 ```
+
+# Conditional Filter
+
+Define a function that takes a dictionary as a parameter and returns a dictionary with elements based on a condition.
+
+```sh
+my_dict = {'a': 1, 'b': 2, 'c': 3, 'd': 4} 
+filtered_dict = filter_dict(my_dict, lambda k, v: v % 2 == 0) 
+```
