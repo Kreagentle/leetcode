@@ -53,3 +53,14 @@ input_tuple = (
 output_tuple = get_diagonal(input_tuple)
 print(output_tuple)  # Expected output: (1, 5, 9)
 ```
+
+# Common Elements
+
+Write a function that takes two tuples and returns a tuple containing the common elements of the input tuples.
+
+```sh
+tuple1 = (1, 2, 3, 4, 5)
+tuple2 = (4, 5, 6, 7, 8)
+output_tuple = common_elements(tuple1, tuple2)
+print(output_tuple)  # Expected output: (4, 5)
+```
