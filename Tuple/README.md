@@ -29,3 +29,13 @@ value_to_insert = 1
 output_tuple = insert_value_front(input_tuple, value_to_insert)
 print(output_tuple)  # Expected output: (1, 2, 3, 4)
 ```
+
+# Concatenate
+
+Write a function that takes a tuple of strings and concatenates them, separating each string with a space.
+
+```sh
+input_tuple = ('Hello', 'World', 'from', 'Python')
+output_string = concatenate_strings(input_tuple)
+print(output_string)  # Expected output: 'Hello World from Python'
+```
