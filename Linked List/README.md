@@ -27,3 +27,7 @@ Write a function to reverse a singly linked list. The function should return a n
 Original singly linked list:   1 -> 2 -> 3 -> 4 -> 5
 Reversed singly linked list:  5 -> 4 -> 3 -> 2 -> 1
 ```
+
+# Middle of a Singly Linked List
+
+Write a function to find and return the middle node of a singly linked list. If the list has an even number of nodes, return the second of the two middle nodes.
