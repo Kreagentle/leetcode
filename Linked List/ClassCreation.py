@@ -84,6 +84,27 @@ class LinkedList:
             fast = fast.next.next
         return slow
 
+    def remove_duplicates(self):
+        dicti = dict()
+        temp = self.head
+        prev = None
+
+        while temp:
+            if temp.value not in dicti:
+                dicti[temp.value] = 1
+            else:
+                dicti[temp.value] += 1
+
+            if dicti[temp.value] > 1:
+                if temp.next:
+                    prev.next = temp.next
+                else:
+                    prev.next = None
+            else:
+                prev = temp
+
+            temp = temp.next
+
 
 
 class Node:

@@ -31,3 +31,12 @@ Reversed singly linked list:  5 -> 4 -> 3 -> 2 -> 1
 # Middle of a Singly Linked List
 
 Write a function to find and return the middle node of a singly linked list. If the list has an even number of nodes, return the second of the two middle nodes.
+
+# Remove Duplicates from a Singly Linked List
+
+Given a singly linked list, write a function that removes all the duplicates. use this linked list.
+
+```sh
+Original Linked List - "1 -> 2 -> 4-> 3 -> 4->2"
+Result Linked List - "1 -> 2 -> 4 -> 3
+```
