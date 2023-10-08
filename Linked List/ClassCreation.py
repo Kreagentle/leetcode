@@ -66,6 +66,15 @@ class LinkedList:
             self.length -= 1
             return deleted_node
 
+    def reverse(self):
+        prev_node = None
+        node = self.head
+        while node is not None:
+            new_node = node.next
+            node.next = prev_node
+            prev_node = node
+            node = new_node
+        self.head, self.tail = self.tail, self.head
 
 
 

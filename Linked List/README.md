@@ -18,3 +18,12 @@ Write a method to insert a new element at the end of a singly linked list. The l
 # Deletion from a Singly Linked List
 
 Write a function to delete a node from a singly linked list. The function should take the index(starting from 0) of the node to be deleted as a parameter.
+
+# Reverse a Singly Linked List
+
+Write a function to reverse a singly linked list. The function should return a new linked list that is the reverse of the original list.
+
+```sh
+Original singly linked list:   1 -> 2 -> 3 -> 4 -> 5
+Reversed singly linked list:  5 -> 4 -> 3 -> 2 -> 1
+```
