@@ -9,10 +9,23 @@ class LinkedList:
         new_node = Node(value)
         if self.head is None:
             self.head = new_node
-            self.tail = new_node
+            self.tail = self.head
         else:
             new_node.next = self.head
             self.head = new_node
+        self.length += 1
+
+    def append(self, value):
+        new_node = Node(value)
+        if self.head is None:
+            self.head = new_node
+            self.tail = self.head
+        else:
+            temp = self.head
+            for _ in range(self.length - 1):
+                temp = temp.next
+            temp.next = new_node
+            self.tail = new_node
         self.length += 1
 
 

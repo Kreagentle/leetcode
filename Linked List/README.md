@@ -10,3 +10,7 @@ head and tail attributes of the linked list to point to the new node.
 # Insertion at the Beginning of a Singly Linked List
 
 Write a function to insert a new element at the beginning of a singly linked list. LinkedList and Node class are already provided.
+
+# Insertion at the End of a Singly Linked List
+
+Write a method to insert a new element at the end of a singly linked list. The logic should cover edge cases such as empty linked list or linked list with some elements in it.
