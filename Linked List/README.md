@@ -14,3 +14,7 @@ Write a function to insert a new element at the beginning of a singly linked lis
 # Insertion at the End of a Singly Linked List
 
 Write a method to insert a new element at the end of a singly linked list. The logic should cover edge cases such as empty linked list or linked list with some elements in it.
+
+# Deletion from a Singly Linked List
+
+Write a function to delete a node from a singly linked list. The function should take the index(starting from 0) of the node to be deleted as a parameter.
