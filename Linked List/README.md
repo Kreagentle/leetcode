@@ -40,3 +40,34 @@ Given a singly linked list, write a function that removes all the duplicates. us
 Original Linked List - "1 -> 2 -> 4-> 3 -> 4->2"
 Result Linked List - "1 -> 2 -> 4 -> 3
 ```
+
+# Merge Two Sorted Linked List
+
+You are given the heads of two sorted linked lists list1 and list2. 
+Merge the two lists in a one sorted list. The list should be made by splicing together the nodes of the first two lists.
+Return the head of the merged linked list.
+
+```sh
+Example 1: 
+Input: list1 = [1,2,4], list2 = [1,3,4]
+Output: [1,1,2,3,4,4]
+Example 2:
+Input: list1 = [], list2 = []
+Output: []
+Example 3: 
+Input: list1 = [], list2 = [0]
+Output: [0]
+```
+
+# Remove Duplicates
+
+Given the head of a sorted linked list, delete all duplicates such that each element appears only once. Return the linked list sorted as well. 
+
+```sh
+Example 1:
+Input: head = [1,1,2]
+Output: [1,2]
+Example 2:
+Input: head = [1,1,2,3,3]
+Output: [1,2,3]
+```
