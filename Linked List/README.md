@@ -87,3 +87,7 @@ Example 3:
 Input: head = [7,7,7,7], val = 7
 Output: []
 ```
+
+# Reverse Linked List
+
+Given the head of a singly linked list, reverse the list, and return the reversed list.
