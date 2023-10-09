@@ -91,3 +91,12 @@ Output: []
 # Reverse Linked List
 
 Given the head of a singly linked list, reverse the list, and return the reversed list.
+
+# Middle of the Linked List
+
+Given the head of a singly linked list, return the middle node of the linked list.
+If there are two middle nodes, return the second middle node.
+
+# Palindrome Linked List
+
+Given the head of a singly linked list, return true if it is a palindrome or false otherwise.
