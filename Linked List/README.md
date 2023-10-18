@@ -100,3 +100,5 @@ If there are two middle nodes, return the second middle node.
 # Palindrome Linked List
 
 Given the head of a singly linked list, return true if it is a palindrome or false otherwise.
+
+Test query
