@@ -27,3 +27,12 @@ Write a function called productOfArray which takes in an array of numbers and re
 productOfArray([1,2,3]) #6
 productOfArray([1,2,3,10]) #60
 ```
+
+# RecursiveRange
+
+Write a function called recursiveRange which accepts a number and adds up all the numbers from 0 to the number passed to the function.
+
+```sh
+recursiveRange(6) # 21
+recursiveRange(10) # 55 
+```
