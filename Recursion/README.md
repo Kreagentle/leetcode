@@ -18,3 +18,12 @@ factorial(2) # 2
 factorial(4) # 24
 factorial(7) # 5040
 ```
+
+# ProductofArray
+
+Write a function called productOfArray which takes in an array of numbers and returns the product of them all.
+
+```sh
+productOfArray([1,2,3]) #6
+productOfArray([1,2,3,10]) #60
+```
