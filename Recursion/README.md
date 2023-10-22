@@ -47,3 +47,24 @@ fib(10) # 55
 fib(28) # 317811
 fib(35) # 9227465
 ```
+
+# Reverse
+
+Write a recursive function called reverse which accepts a string and returns a new string in reverse.
+
+```sh
+reverse('python') # 'nohtyp'
+reverse('appmillers') # 'srellimppa'
+```
+
+# IsPalindrome
+
+Write a recursive function called isPalindrome which returns true if the string passed to it is a palindrome (reads the same forward and backward). Otherwise it returns false.
+
+```sh
+isPalindrome('awesome') # false
+isPalindrome('foobar') # false
+isPalindrome('tacocat') # true
+isPalindrome('amanaplanacanalpanama') # true
+isPalindrome('amanaplanacanalpandemonium') # false
+```
