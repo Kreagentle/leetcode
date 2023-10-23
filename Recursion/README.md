@@ -126,3 +126,39 @@ obj2 = {
 nestedEvenSum(obj1) # 6
 nestedEvenSum(obj2) # 10
 ```
+
+# CapitalizeWords
+
+Write a recursive function called capitalizeWords. Given an array of words, return a new array containing each word capitalized.
+
+```sh
+words = ['i', 'am', 'learning', 'recursion']
+capitalizeWords(words) # ['I', 'AM', 'LEARNING', 'RECURSION']
+```
+
+# StringifyNumbers
+
+Write a function called stringifyNumbers which takes in an object and finds all of the values which are numbers and converts them to strings. Recursion would be a great way to solve this!
+
+```sh
+obj = {
+  "num": 1,
+  "test": [],
+  "data": {
+    "val": 4,
+    "info": {
+      "isRight": True,
+      "random": 66
+    }
+  }
+}
+ 
+stringifyNumbers(obj)
+ 
+{'num': '1', 
+ 'test': [], 
+ 'data': {'val': '4', 
+          'info': {'isRight': True, 'random': '66'}
+          }
+}
+```
