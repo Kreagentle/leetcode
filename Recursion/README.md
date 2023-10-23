@@ -89,3 +89,11 @@ flatten([1, [2, [3, 4], [[5]]]]) # [1, 2, 3, 4, 5]
 flatten([[1], [2], [3]]) # [1, 2, 3]
 flatten([[[[1], [[[2]]], [[[[[[[3]]]]]]]]]]) # [1, 2, 3]
 ```
+
+# CaptalizeFirst
+
+Write a recursive function called capitalizeFirst. Given an array of strings, capitalize the first letter of each string in the array.
+
+```sh
+capitalizeFirst(['car', 'taco', 'banana']) # ['Car','Taco','Banana']
+```
