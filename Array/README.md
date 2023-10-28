@@ -108,3 +108,12 @@ Output: 3
 Explanation: The answer is "wke", with the length of 3.
 Notice that the answer must be a substring, "pwke" is a subsequence and not a substring.
 ```
+
+# Spirical matrix
+
+Given an m x n matrix, return all elements of the matrix in spiral order.
+
+```sh
+Input: matrix = [[1,2,3],[4,5,6],[7,8,9]]
+Output: [1,2,3,6,9,8,7,4,5]
+```
