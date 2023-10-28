@@ -117,3 +117,15 @@ Given an m x n matrix, return all elements of the matrix in spiral order.
 Input: matrix = [[1,2,3],[4,5,6],[7,8,9]]
 Output: [1,2,3,6,9,8,7,4,5]
 ```
+
+# Move zeros
+
+Given an integer array nums, move all 0's to the end of it while maintaining the relative order of the non-zero elements.
+Note that you must do this in-place without making a copy of the array.
+
+```sh
+Input: nums = [0,1,0,3,12]
+Output: [1,3,12,0,0]
+```
+
+
